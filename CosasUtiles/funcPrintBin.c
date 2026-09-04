@@ -17,7 +17,7 @@ void printBinario(int dato)
   printf("0b ");
   for (int i = BITS - 1; i >= 0; i--)
   {
-    printf("%lu", (dato >> i) & 0b1);
+    printf("%d", (dato >> i) & 0b1);
     if (i % 4 == 0)
     {
       printf(" ");
